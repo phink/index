@@ -63,7 +63,7 @@ end
 
 module Index = Index_unix.Make (Key) (Value)
 
-let index_name = "hello"
+let index_name = Filename.concat "_tests" "index-unix"
 
 let log_size = 4
 
